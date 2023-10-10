@@ -1,1 +1,1 @@
-const array = [];
+const array = ["Jacopo", "Sangregorio", 18, "Paternò (CT)", "Music", "Pizza", "Minecraft", "Interstellar", "The Magic", "Lilo"];
