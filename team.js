@@ -1,7 +1,7 @@
 const array = [
     name = "Sara",
     surname = "Bianchi",
-    age = 25,
+    age = 30,
     city = "Rome",
     hobby = "gardening",
     favoriteFood = "carbonara",
