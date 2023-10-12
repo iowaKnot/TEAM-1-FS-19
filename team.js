@@ -10,5 +10,6 @@ const array = [
         favoriteFilm: "Star Wars",
         favoriteBook: "Bible",
         petName: "Leia",
+        gg: "123",
     },
 ];
