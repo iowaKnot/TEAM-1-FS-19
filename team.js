@@ -10,5 +10,5 @@ const array = [
     favoriteFilm = "The Godfather",
     favoriteBook = "Pride and Prejudice",
     petName = "Nala",
-    };
+    },
 ];
