@@ -1,10 +1,14 @@
-const array = [ name= "Matteo",
-    surname= "Petrucci",
-    age= 25,
-    city= "Rieti",
-    hobby= "Video Games",
-    favoriteFood= "Riso",
-    favoriteVideoGame= "League Of Legends",
-    favoriteFilm= "Star Wars",
-    favoriteBook= "'",
-    petName= "Adalgiso, Akita",];
+const array = [
+    {
+    name:"matteo", 
+    surname:"petrucci", 
+    age:"25", 
+    city:"rieti", 
+    hobby:"boh", 
+    favoriteFood:"riso", 
+    favoriteVideoGame:'"', 
+    favoriteFilm:'"', 
+    favoriteBook:'"', 
+    petName:"adalgiso"
+    },
+];
