@@ -1,4 +1,5 @@
 const array = [
+    {
     name = "Sabrina",
     surname = "Moccia",
     age = 30,
@@ -9,5 +10,5 @@ const array = [
     favoriteFilm = "The Godfather",
     favoriteBook = "Pride and Prejudice",
     petName = "Nala",
-
-]
+    };
+];
