@@ -1,5 +1,5 @@
 const array = [
-  {
+{                         //array Jacopo
     name: "Jacopo",
     surname: "Sangregorio",
     age: 18,
@@ -9,6 +9,18 @@ const array = [
     favoriteVideoGame: "Minecraft",
     favoriteFilm: "Interstellar",
     favoriteBook: "The Magic",
-    petName: "Lilo"
+    petName: "Lilo",
+},
+{                           //array Raffaele
+    name:"Raffaele",
+    surname:"Filannino", 
+    age:24, 
+    city:"Barletta", 
+    hobby:"football", 
+    favoriteFood:"Ragu",
+    favoriteVideoGame:"Black ops 2", 
+    favoriteFilm:"signore degli anelli", 
+    favoriteBook:"intelligenza emotiva", 
+    petName:"shila",
     },
-  ];
+];
