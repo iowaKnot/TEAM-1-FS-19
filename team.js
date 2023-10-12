@@ -12,3 +12,4 @@ const array = [
     petName:"adalgiso"
     },
 ];
+
