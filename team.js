@@ -74,15 +74,15 @@ function gameLol(arr) { //Print who wrote ‘LOL’ or ‘League Of Legends’ a
 console.log(gameLol(array));
 
 function petName(arr) { //Print who has a pet (name petName).
-    let petNameArr =[];
+    let petNameArr = [];
     for (let i = 0; i < arr.length; i++) {
         let petString = arr[i].name + " " + arr[i].petName;
         if (arr[i].petName !== "") {
             petNameArr.push(petString);
-        }
-    }
+        };
+    };
     return petNameArr;
-}
+};
 console.log(petName(array));
 
 /*function ordineCrescente(arr) { //Print the team in age order (name age).
@@ -108,29 +108,47 @@ console.log(petName(array));
 };
 console.log (ordineCrescente(array));*/
 
+function ordinamento(arr) { //.sort ordinamento crescente/ reverse ordinamento decresciente
+    let nameAgeArr = [];
+    app = 0;
+    for (i = 0; i < arr.length; i++) {   //posizione 1=i
+        for (k = i + 1; k < arr.length; k++) {   //posizione 2=k
+            let ageString = arr[i].name + " " + arr[i].age;
+            if (arr[k].age < arr[i].age) { //simbolo per crescente o descrescente 
+                app = arr[i].age;
+                arr[i].age = arr[k].age;
+                arr[k].age = app;
+                nameAgeArr.push(ageString);
+            };
+        };
+    };
+    for (i = 0; i < arr.length; i++)
+        console.log(arr[i].age);
+    return nameAgeArr;
+};
+console.log(ordinamento(array));
+
+
+
 function ArrayAvg(arrayAge) {  //Print the team middle age.
 
     var i = 0, sum = 0, ArrayLen = arrayAge.length;
-    while (i<ArrayLen) {
+    while (i < ArrayLen) {
         sum = sum + arrayAge[i++];
 
-    }
-        return sum / ArrayLen;
-}
+    };
+    return sum / ArrayLen;
+};
 
 var arrayAge = [18, 24, 30, 26, 25];
 var media = ArrayAvg(arrayAge);
 console.log(media);
 
-function arraySurnameName(arr) {
-    let arraySurnameNameArr = [];
+
+function sameName(arr) {
+    let sameNameArr = [];
     for (let i = 0; i < arr.length; i++) {
-        let surnameName = arr[i].surname + " " + arr[i].name;
-        if (surnameName !== "") {
-            surnameName = arraySurnameName.sort();
-            arraySurnameNameArr.push(surnameName);
-        };
+        let sameNameString = array[i].name;
+
     };
-    return arraySurnameNameArr;
 };
-console.log(arraySurnameName(array));
